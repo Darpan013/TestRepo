@@ -12,13 +12,13 @@
 .image{
     width: 80%;
     margin: 0 auto;
-    text-align: center;
-    /* display: inline-block; */
     display: flex;
 }
-.image span{
-    margin-right: 10px;
-    /* display: inline-block; */
-    width: 80%;  
+.image span {
+    margin-right: 5px;
+    margin-left: 5px;
+    display: inline-block;
+    width: 80%;
+    text-align: center;  
 }
 

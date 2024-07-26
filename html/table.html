@@ -1,26 +1,42 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Table</title>
-    <style>
-    table 
-    td, th {
-  border: 1px solid black;
-  text-align: left;
-  padding: 8px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation School</title>
+    <link rel="stylesheet" href="..//day1css/try.css">
 </head>
 <body>
-
-<h2>HTML Table</h2>
-
-<table>
-  <tr>
-    <th colspan="3">1</th>
-    <th>2</th>
-    <th colspan="2">3</th>
-    <th>N</th>
-  </tr>
-</table>
-  </body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Animation School Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Welcome to Animation School</h1>
+        <p>Your gateway to a creative future in animation, VFX, and multimedia. Join us to unleash your potential!</p>
+    </section>
+    <section class="form-section">
+        <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+</body>
+</html>
